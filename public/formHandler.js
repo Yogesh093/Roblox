@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
 
-        // Send the data to the server
+        console.log(`Username: ${username}, Password: ${password}`); // Log the input values
         const response = await fetch('/login', {
             method: 'POST',
             headers: {
