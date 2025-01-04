@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
+    <title>Roblox - Create and Play Games</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <Script src="formHandler.js"></Script>
-    <h1>Login</h1>
-    <form action="/login" method="POST">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-        <br><br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <br><br>
-        <button type="submit">Login</button>
-    </form>
+    <header>
+        <div class="logo">Roblox</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Avatar</a></li>
+                <li><a href="#">Create</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="featured-games">
+            <h2>Featured Games</h2>
+            <div class="game-card">Game 1</div>
+            <div class="game-card">Game 2</div>
+            <div class="game-card">Game 3</div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Roblox Corporation. All rights reserved.</p>
+    </footer>
+    <script src="formHandler.js"></script>
 </body>
 </html>
